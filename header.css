@@ -1,26 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /********************************/
 /*          Hero Headers        */
 /********************************/
 .hero {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 15%;
     z-index: 3;
     color: #fff;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
 }
 .hero h1 {
-    font-size: 6em;    
+    font-size: 8em;    
     font-weight: bold;
     margin: 0;
     padding: 0;
 }
 
 
+
 /********************************/
 /*            Overlay           */
 /********************************/
+
 .overlay {
     position: absolute;
     width: 100%;
