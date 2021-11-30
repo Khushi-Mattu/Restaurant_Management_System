@@ -31,7 +31,12 @@ INSERT INTO userRec VALUES(1,'Admin','admin@gmail.com','12345',999909999);
 INSERT INTO userRec VALUES(2,'Uditi','uditi@gmail.com','qwerty',9726871261);
 INSERT INTO userRec VALUES(3,'Khushi','khushi@gmail.com','asdfg',9971183123);
 
-
+6. create bill table
+CREATE TABLE restaurant.bill(
+billid int primary key,
+bill int,
+uid int,
+CONSTRAINT fk_product_1 foreign key (uid) references userRec(uid));
 
 
 
