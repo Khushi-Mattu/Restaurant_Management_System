@@ -21,7 +21,7 @@
 
     </head>
 
-    <body style="background-color: black; color: white;">
+    <body style="background-color: burlywood; color: white;">
         <!-- Main container -->
         
         
@@ -46,8 +46,8 @@
 
 
 
-        <div class="container-fluid" style="margin-top: 0%; height: 80vh; background-size: cover; background-position: center center; background-repeat: no-repeat;
-  background-image: url(https://i.pinimg.com/600x315/af/46/fa/af46fa8a4e84201bb3a5d6dcd73d928c.jpg); ">
+            <div class="container-fluid" style="margin-top: 0%; height: 100vh; background-size: cover; background-position: center center; background-repeat: no-repeat;
+  background-image: url(https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp); ">
                     <div class="hero">
                         <hgroup>
                             <h1>No 1 In Taste</h1>
