@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
+    
     <head>
         <!-- webstite name -->
         <title>
-            
-            Tasty
+            Restaurant
         </title>
         
             <!-- Bootstrap CSS -->
@@ -78,7 +78,7 @@
                     
                     echo  "<div class='col-sm-4' style='margin-top : 20px;' >
                             <div class='card' style='height : 100%; width: 18rem; '>
-                                <img class='card-img-top' src='image/non_veg_combo.jpg' alt='Card image cap'>
+                                <img class='card-img-top' src='nimages/veg burger.jpg' alt='Card image cap'>
                                 <div class='card-body'>
                                     <h5 class='card-title' style= 'color : black'>";
                                     echo $row['menu_item'];
