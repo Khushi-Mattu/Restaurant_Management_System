@@ -13,8 +13,7 @@ if (!$conn) {
   die("Connection failed: " . mysqli_connect_error());
 }
 
-$sql = "INSERT INTO bills ( bill )
-VALUES ('.$bill.')";
+$sql = "INSERT INTO bills ( bill ) VALUES ('.$bill.')";
 
 if (mysqli_query($conn, $sql)) {
   echo "New order Placed";

@@ -27,9 +27,9 @@
         
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin: 0%;">
                 <a class="navbar-brand my-2 my-lg-0" href="#">
-                    <img src="https://getbootstrap.com/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+                    <img src="images\logo_rest.png" width="30" height="30" alt="">
                 </a>
-                <a class="navbar-brand" href="#">Tasty</a>
+                <a class="navbar-brand" href="#">The Restaurant</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -69,7 +69,7 @@
                 <form method="post" action="order_con.php">
                 <?php
                 // database connetion 
-                $conn = mysqli_connect("localhost", "root", "", "restauarnt");
+                $conn = mysqli_connect("localhost", "root", "", "restaurant");
                 $query = "SELECT * FROM menu";  
                 $result = mysqli_query($conn, $query);
                 
