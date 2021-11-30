@@ -6,7 +6,7 @@ $pass = filter_input(INPUT_POST, 'password');
 
 if ($email=='admin') {
 		# code...
-		if ($pass == 'admin123') {
+		if ($pass == '12345') {
 			# code...
 			header('location: admin.html');
 		}
@@ -23,7 +23,7 @@ if (!empty($email)) {
 		$server = "localhost";
 		$uname = "root";
 		$dpass = "";
-		$dbname = "ishita";
+		$dbname = "restaurant";
 		$conn = mysqli_connect($server, $uname, $dpass, $dbname);
 		if (mysqli_connect_error()) {
 			# code...

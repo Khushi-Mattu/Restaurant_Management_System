@@ -4,7 +4,7 @@ $bill = $_POST['bill'];
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "ishita";
+$dbname = "restaurant";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $dbname);

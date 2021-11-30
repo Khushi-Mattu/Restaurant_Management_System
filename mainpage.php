@@ -69,7 +69,7 @@
                 <form method="post" action="order_con.php">
                 <?php
                 // database connetion 
-                $conn = mysqli_connect("localhost", "root", "", "ishita");
+                $conn = mysqli_connect("localhost", "root", "", "restauarnt");
                 $query = "SELECT * FROM menu";  
                 $result = mysqli_query($conn, $query);
                 
