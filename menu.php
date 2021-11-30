@@ -2,7 +2,7 @@
 echo $dname = filter_input(INPUT_POST, 'dname');
 echo $dprice = filter_input(INPUT_POST, 'dprice');
 echo $message = filter_input(INPUT_POST, 'message');
-$conn = mysqli_connect("localhost", "root", "", "ishita");
+$conn = mysqli_connect("localhost", "root", "", "restaurant");
 
 if (mysqli_connect_error()) {
 # code...
