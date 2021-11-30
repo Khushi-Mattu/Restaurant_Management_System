@@ -1,3 +1,5 @@
+all the database queries:
+
 1. create database
     CREATE DATABASE restaurant;
     
