@@ -4,7 +4,7 @@ $email = filter_input(INPUT_POST, 'email');
 $password = filter_input(INPUT_POST, 'pass1');
 $con = filter_input(INPUT_POST, 're_pass');
 
-$conn = mysqli_connect("localhost", "root", "", "ishita");
+$conn = mysqli_connect("localhost", "root", "", "restaurant");
 
 if (mysqli_connect_error()) {
 # code...

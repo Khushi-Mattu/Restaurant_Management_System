@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
+    
     <head>
         <!-- webstite name -->
         <title>
-            
-            Tasty
+            Restaurant
         </title>
         
             <!-- Bootstrap CSS -->
@@ -21,15 +21,15 @@
 
     </head>
 
-    <body style="background-color: black; color: white;">
+    <body style="background-color: burlywood; color: white;">
         <!-- Main container -->
         
         
             <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin: 0%;">
                 <a class="navbar-brand my-2 my-lg-0" href="#">
-                    <img src="https://getbootstrap.com/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+                    <img src="images\logo_rest.png" width="30" height="30" alt="">
                 </a>
-                <a class="navbar-brand" href="#">Tasty</a>
+                <a class="navbar-brand" href="#">The Restaurant</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -46,8 +46,8 @@
 
 
 
-        <div class="container-fluid" style="margin-top: 0%; height: 80vh; background-size: cover; background-position: center center; background-repeat: no-repeat;
-  background-image: url(https://i.pinimg.com/600x315/af/46/fa/af46fa8a4e84201bb3a5d6dcd73d928c.jpg); ">
+            <div class="container-fluid" style="margin-top: 0%; height: 100vh; background-size: cover; background-position: center center; background-repeat: no-repeat;
+  background-image: url(https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp); ">
                     <div class="hero">
                         <hgroup>
                             <h1>No 1 In Taste</h1>
@@ -69,7 +69,7 @@
                 <form method="post" action="order_con.php">
                 <?php
                 // database connetion 
-                $conn = mysqli_connect("localhost", "root", "", "ishita");
+                $conn = mysqli_connect("localhost", "root", "", "restaurant");
                 $query = "SELECT * FROM menu";  
                 $result = mysqli_query($conn, $query);
                 
@@ -78,7 +78,7 @@
                     
                     echo  "<div class='col-sm-4' style='margin-top : 20px;' >
                             <div class='card' style='height : 100%; width: 18rem; '>
-                                <img class='card-img-top' src='image/non_veg_combo.jpg' alt='Card image cap'>
+                                <img class='card-img-top' src='nimages/veg burger.jpg' alt='Card image cap'>
                                 <div class='card-body'>
                                     <h5 class='card-title' style= 'color : black'>";
                                     echo $row['menu_item'];
